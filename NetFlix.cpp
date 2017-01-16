@@ -17,8 +17,10 @@ NetFlix::NetFlix()
 {
 }
 
-NetFlix::~NetFlix()
+NetFlix::~NetFlix(int idade, const string &nome)
 {
+this->nome=nome;
+this->idade=idade;
 }
 
 void NetFlix::classificaFilme()

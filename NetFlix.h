@@ -11,7 +11,8 @@ class NetFlix
 
 public:
     NetFlix();
-    ~NetFlix();
+    ~NetFlix(int, const string &);
+    
     void classificaFilme();
 	void exibirDados();
 
