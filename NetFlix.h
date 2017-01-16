@@ -5,9 +5,7 @@ using namespace std;
 
 class NetFlix
 {
-    private:
-	int senha;
-	string nome;
+    
 
 public:
     NetFlix();
@@ -16,7 +14,9 @@ public:
     
     void classificaFilme();
 	void exibirDados();
-
+private:
+	int senha;
+	string nome;
 };
 
 #endif // NETFLIX_H
