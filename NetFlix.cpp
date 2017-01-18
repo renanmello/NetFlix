@@ -5,6 +5,7 @@
 #include using std::cout;
 using std::string;
 using std::endln;
+
 string NetFlix::regiao="Brasil";
 
 NetFlix::NetFlix()
@@ -37,7 +38,7 @@ void NetFlix::classificaFilme()
 
 }
 
-void NetFlix::exibirDados()
+void NetFlix::exibirDados() const
 {
     cout<<nome<<endln;
     cout<<senha<<endln;

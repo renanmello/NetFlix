@@ -15,7 +15,7 @@ public:
     NetFlix(const NetFlix &);
     
     void classificaFilme();
-	void exibirDados();
+	void exibirDados() const;
 private:
 	string senha;
 	string nome;
