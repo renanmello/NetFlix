@@ -2,23 +2,23 @@
 #define NETFLIX_H
 #include "iostream"
 using namespace std;
-
+using std::string;
 class NetFlix
 {
     
 
 public:
     NetFlix();
-    ~NetFlix(int, const string &);
+    ~NetFlix();
+    NetFlix(string, const string &);
     NetFlix(const NetFlix &);
     
     void classificaFilme();
 	void exibirDados();
 private:
-	int senha;
+	string senha;
 	string nome;
-static:
-   string regiao="brasil";
+    static string regiao;
 };
 
 #endif // NETFLIX_H

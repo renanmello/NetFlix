@@ -2,16 +2,22 @@
 #include "stdafx.h"
 #include "iostream"
 using std::cout;
-
-
+using std::string;
+using std::endln;
+string NetFlix::regiao="Brasil";
 
 NetFlix::NetFlix()
 {
-    nome="null";
-    senha=1234;
+    nome="";
+    senha="1234";
 }
 
-NetFlix::~NetFlix(int senha, const string &nome)
+NetFlix::~NetFlix()
+{
+
+}
+
+NetFlix::~NetFlix(string senha, const string &nome)
 {
 this->nome=nome;
 this->senha=senha;
@@ -32,6 +38,8 @@ void NetFlix::classificaFilme()
 
 void NetFlix::exibirDados()
 {
+    cout<<nome<<endln;
+    cout<<senha<<endln;
 }
 
 
