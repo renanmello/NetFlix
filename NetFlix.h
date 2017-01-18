@@ -17,6 +17,8 @@ public:
 private:
 	int senha;
 	string nome;
+static:
+   string regiao="brasil";
 };
 
 #endif // NETFLIX_H
