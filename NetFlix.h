@@ -1,6 +1,7 @@
 #ifndef NETFLIX_H
 #define NETFLIX_H
-#include "iostream"
+#include <iostream>
+#include <string>
 using namespace std;
 using std::string;
 class NetFlix

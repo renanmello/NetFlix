@@ -1,7 +1,8 @@
 #include "NetFlix.h"
 #include "stdafx.h"
-#include "iostream"
-using std::cout;
+#include <iostream>
+#include <string>
+#include using std::cout;
 using std::string;
 using std::endln;
 string NetFlix::regiao="Brasil";
@@ -17,7 +18,7 @@ NetFlix::~NetFlix()
 
 }
 
-NetFlix::~NetFlix(string senha, const string &nome)
+NetFlix::NetFlix(string senha, const string &nome)
 {
 this->nome=nome;
 this->senha=senha;
