@@ -7,6 +7,8 @@ using std::cout;
 
 NetFlix::NetFlix()
 {
+    nome="null";
+    senha=1234;
 }
 
 NetFlix::~NetFlix(int senha, const string &nome)
