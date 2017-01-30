@@ -3,7 +3,7 @@
 
 int mes,dia,ano;
 
-string Data::idadeMaxima=120;
+
 
 Data::Data(){
     dia=01;
@@ -21,3 +21,6 @@ Data::~Data()
 {
 }
 
+void Data::testarDia(){
+    
+    }

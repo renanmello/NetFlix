@@ -1,5 +1,5 @@
 #include "NetFlix.h"
-
+#include "Data.h"
 #include <iostream>
 #include <string>
 
@@ -43,5 +43,19 @@ void NetFlix::exibirDados() const
     cout<<nome<<endln;
     cout<<senha<<endln;
 }
+
+void NetFlix::alocarUsuario( const int lista){
+     
+    if(lista>0){
+        nPessoas=new string [lista];
+        quatpessoas=lista;
+        cout<<"Números de pessoas"<<quatPessoas;
+        
+        }else{
+            nPessoas=0;
+            quatPessoas=0;
+            cout<<"Nenhuma pessoa cadastrada"<< endln;
+            }
+    }
 
 

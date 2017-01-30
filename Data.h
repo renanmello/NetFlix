@@ -17,7 +17,7 @@ private:
 	int dia;
 	int mes;
     int ano;
-    static int idadeMaxima;
+   
 };
 
 #endif // DATA_H

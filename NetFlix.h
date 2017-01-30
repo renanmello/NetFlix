@@ -16,10 +16,14 @@ public:
     
     void classificaFilme();
 	void exibirDados() const;
+    void alocarUsuario(const int);
 private:
 	string senha;
 	string nome;
     static string regiao;
+    int quatPessoas;
+    string *nPessoas;
+    
 };
 
 #endif // NETFLIX_H
