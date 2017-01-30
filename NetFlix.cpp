@@ -1,8 +1,8 @@
 #include "NetFlix.h"
-#include "stdafx.h"
+
 #include <iostream>
 #include <string>
-#include using std::cout;
+
 using std::string;
 using std::endln;
 

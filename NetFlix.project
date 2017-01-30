@@ -57,9 +57,9 @@
   </Settings>
   <VirtualDirectory Name="NetFlix">
     <File Name="main.cpp"/>
-    <File Name="mainwindow.cpp"/>
-    <File Name="mainwindow.h"/>
     <File Name="NetFlix.cpp"/>
     <File Name="NetFlix.h"/>
+    <File Name="Data.h"/>
+    <File Name="Data.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>

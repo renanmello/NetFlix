@@ -1,5 +1,3 @@
-Debug/NetFlix.cpp.o: NetFlix.cpp NetFlix.h stdafx.h
+Debug/NetFlix.cpp.o: NetFlix.cpp NetFlix.h
 
 NetFlix.h:
-
-stdafx.h:
