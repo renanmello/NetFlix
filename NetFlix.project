@@ -61,5 +61,7 @@
     <File Name="NetFlix.h"/>
     <File Name="Data.h"/>
     <File Name="Data.cpp"/>
+    <File Name="Usuario.h"/>
+    <File Name="Usuario.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>
