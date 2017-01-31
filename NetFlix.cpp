@@ -1,5 +1,6 @@
 #include "NetFlix.h"
 #include "Data.h"
+#include "Usuario.h"
 #include <iostream>
 #include <string>
 

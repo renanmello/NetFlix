@@ -8,7 +8,7 @@ Usuario::Usuario()
     perfil="";
     }
 
-Usuario::~Usuario(const string &email, const string &nome)
+Usuario::~Usuario(const string &perfil, const string &nome)
 {
     this->email=email;
     this->perfil=perfil;
@@ -19,5 +19,21 @@ Usuario::Usuario(const Usuario &u){
 
       
     }
-
+    Usuario::setUsuario(string perfil, const string &email){
+        this->email=email;
+        this->perfil=perfil;
+        
+        }
+        
+        Usuario::getUsuario(){
+            
+            return Usuario;
+            }
+Usuario::exibirDados(Usuario n){
+    
+    
+    cout<<n.getUsuario();
+    
+     
+    }
 

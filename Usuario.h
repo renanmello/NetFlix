@@ -11,14 +11,14 @@ public:
     NetFlix(const Usuario &);
     
     void exibirPerfil();
-	void exibirDados() const;
+	void exibirDados(Usuario) const;
     void string getUsuario();
     void setUsuario(string, const string &);
     
 private:
     string email;
     string perfil;
-    
+    string[] lista;
 
 };
 
