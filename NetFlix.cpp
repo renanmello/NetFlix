@@ -9,6 +9,11 @@ using std::endln;
 
 string NetFlix::regiao="Brasil";
 
+ostream &operator<<(ostream &output,const NetFlix &nome){
+    
+    output<<"Nome:"<<nome.nome<<"regiao:"<<nome.regiao<<"senha:"<<nome.senha;
+    return output;
+    }
 NetFlix::NetFlix()
 {
     nome="";

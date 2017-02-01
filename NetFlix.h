@@ -13,6 +13,7 @@ public:
     ~NetFlix();
     NetFlix(string, const string &);
     NetFlix(const NetFlix &);
+    friend ostream &operator<<(ostream &,const NetFlix &);
     
     void classificaFilme();
 	void exibirDados() const;

@@ -8,7 +8,7 @@ Usuario::Usuario()
     perfil="";
     }
 
-Usuario::~Usuario(const string &perfil, const string &nome)
+Usuario::~Usuario(const string &perfil, const string &email)
 {
     this->email=email;
     this->perfil=perfil;
