@@ -63,5 +63,7 @@
     <File Name="Data.cpp"/>
     <File Name="Usuario.h"/>
     <File Name="Usuario.cpp"/>
+    <File Name="Array.h"/>
+    <File Name="Array.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>
