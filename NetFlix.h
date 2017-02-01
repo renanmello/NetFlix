@@ -3,7 +3,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
 using std::string;
+
 class NetFlix
 {
     
@@ -25,7 +27,7 @@ private:
 	string nome;
     static string regiao;
     int quatPessoas;
-    string *nPessoas;
+    string *listaDePessoas;
     
 };
 

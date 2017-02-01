@@ -1,7 +1,10 @@
 #ifndef ARRAY_H
 #define ARRAY_H
 #include <iostream>
-using std::cout;
+#include <string>
+
+using std::cout
+using std::string;
 class Array
 {
     

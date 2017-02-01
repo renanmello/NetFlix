@@ -2,6 +2,7 @@
 #define USUARIO_H
 #include <iostream>
 #include <string>
+using std::string
 
 class Usuario
 {
@@ -9,13 +10,13 @@ public:
     Usuario();
     ~Usuario();
      
-    NetFlix(const string &, const string &);
-    NetFlix(const Usuario &);
+    Usuario(const string &, const string &);
+    Usuario(const Usuario &);
     
     void exibirPerfil();
 	void exibirDados(Usuario) const;
     void String getUsuario();
-    void setUsuario(string, const string &);
+    
     
 private:
     String email;

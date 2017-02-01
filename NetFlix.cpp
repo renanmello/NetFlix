@@ -9,9 +9,9 @@ using std::endln;
 
 string NetFlix::regiao="Brasil";
 
-ostream &operator<<(ostream &output,const NetFlix &nome){
+ostream &operator<<(ostream &output,const NetFlix &net){
     
-    output<<"Nome:"<<nome.nome<<"regiao:"<<nome.regiao<<"senha:"<<nome.senha;
+    output<<"Nome:"<<net.nome<<"regiao:"<<net.regiao<<"senha:"<<net.senha;
     return output;
     }
     
@@ -31,7 +31,7 @@ NetFlix::NetFlix()
 
 NetFlix::~NetFlix()
 {
-
+  delete [] listaDePessoas;
 }
 
 NetFlix::NetFlix(string senha, const string &nome)
@@ -59,17 +59,17 @@ void NetFlix::exibirDados() const
     cout<<senha<<endln;
 }
 
-void NetFlix::alocarUsuario( const int lista){
+void NetFlix::alocarUsuario( const int nPessoas){
      
-    if(lista>0){
-        nPessoas=new string [lista];
-        quatpessoas=lista;
-        cout<<"Números de pessoas"<<quatPessoas;
+    if(nPessoas>0){
+        listaDePessoas=new string [nPessoas];
+        quatpessoas=nPessoas;
+        cout<<"Números de pessoas que podem ser adicionadas"<<quatPessoas;
         
         }else{
-            nPessoas=0;
+            listaDePessoas=0;
             quatPessoas=0;
-            cout<<"Nenhuma pessoa cadastrada"<< endln;
+            cout<<"Nenhuma pessoa pode ser cadastrada"<< endln;
             }
     }
 
