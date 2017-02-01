@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "Usuario.h"
-#include "NetFlix/NetFlix.h"
+
 Usuario::Usuario()
 {
     email="";

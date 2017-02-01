@@ -1,5 +1,7 @@
 #ifndef USUARIO_H
 #define USUARIO_H
+#include <iostream>
+#include <string>
 
 class Usuario
 {
@@ -12,13 +14,13 @@ public:
     
     void exibirPerfil();
 	void exibirDados(Usuario) const;
-    void string getUsuario();
+    void String getUsuario();
     void setUsuario(string, const string &);
     
 private:
-    string email;
-    string perfil;
-    string[] lista;
+    String email;
+    String perfil;
+   
 
 };
 

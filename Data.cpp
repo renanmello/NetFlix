@@ -21,6 +21,6 @@ Data::~Data()
 {
 }
 
-void Data::testarDia(){
+void Data::Data testarDia(){
     
     }

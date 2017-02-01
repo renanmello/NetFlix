@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+#include "Usuario.h"
 
 int main (int argc, char *argv[])
 {

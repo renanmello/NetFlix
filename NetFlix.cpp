@@ -14,6 +14,7 @@ ostream &operator<<(ostream &output,const NetFlix &nome){
     output<<"Nome:"<<nome.nome<<"regiao:"<<nome.regiao<<"senha:"<<nome.senha;
     return output;
     }
+
 NetFlix::NetFlix()
 {
     nome="";
@@ -31,7 +32,7 @@ this->nome=nome;
 this->senha=senha;
 }
 
-NetFlix::NetFlix( const Netflix &n)
+NetFlix::NetFlix( const NetFlix &n)
 {
     nome=n.nome;
     senha=n.senha;
