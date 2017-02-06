@@ -9,7 +9,7 @@ public:
     Data(int, int ,int);
     Data(const Data &);
     
-    void testarAno();
+    void testarDia();
     void testarIdade();
 
 private:

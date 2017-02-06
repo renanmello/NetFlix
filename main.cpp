@@ -9,7 +9,7 @@ int main (int argc, char *argv[])
     
     u.NetFlix("renan@teste","renan");
     u.exibirDados(u);
-    cout<<"olha mundo"<<endln;
+    cout<<"olha mundo";
     
   return 0;
 }

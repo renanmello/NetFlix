@@ -6,6 +6,7 @@ using std::string
 
 class Usuario
 {
+    friend ostream &operator<<(ostream &,const Usuario &);
 public:
     Usuario();
     ~Usuario();
@@ -15,14 +16,16 @@ public:
     
     void exibirPerfil();
 	void exibirDados(Usuario) const;
-    void String getUsuario();
+    void string getUsuario();
     
     
 private:
-    String email;
-    String perfil;
+    string email;
+    string perfil;
    
 
-};
+}
 
-#endif // USUARIO_H
+#endif
+
+

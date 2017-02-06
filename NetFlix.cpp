@@ -5,7 +5,7 @@
 #include <string>
 
 using std::string;
-using std::endln;
+
 
 string NetFlix::regiao="Brasil";
 
@@ -15,13 +15,14 @@ ostream &operator<<(ostream &output,const NetFlix &net){
     return output;
     }
     
-    const NetFlix::operator =(const NetFlix &net){      
+    NetFlix::operator =(const NetFlix &net){      
         
         this->nome=net.nome;
         this->senha=net.senha;
         
     }
-        }
+        
+
 
 NetFlix::NetFlix()
 {
@@ -55,21 +56,21 @@ void NetFlix::classificaFilme()
 
 void NetFlix::exibirDados() const
 {
-    cout<<nome<<endln;
-    cout<<senha<<endln;
+    cout<<nome;
+    cout<<senha;
 }
 
 void NetFlix::alocarUsuario( const int nPessoas){
      
     if(nPessoas>0){
         listaDePessoas=new string [nPessoas];
-        quatpessoas=nPessoas;
+        NetFlix::quatPessoas=nPessoas;
         cout<<"Números de pessoas que podem ser adicionadas"<<quatPessoas;
         
         }else{
             listaDePessoas=0;
             quatPessoas=0;
-            cout<<"Nenhuma pessoa pode ser cadastrada"<< endln;
+            cout<<"Nenhuma pessoa pode ser cadastrada";
             }
     }
 
