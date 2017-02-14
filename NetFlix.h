@@ -17,7 +17,7 @@ public:
     NetFlix(string, const string &);
     NetFlix(const NetFlix &);
    
-    NetFlix &operator =(const NetFlix &);
+    NetFlix &operator=(const NetFlix &);
     
     void classificaFilme();
 	void exibirDados() const;

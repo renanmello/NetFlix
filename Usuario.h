@@ -2,9 +2,10 @@
 #define USUARIO_H
 #include <iostream>
 #include <string>
-using std::string
+using namespace std;
+using std::string;
 
-class Usuario
+class Usuario : public NetFlix
 {
     friend ostream &operator<<(ostream &,const Usuario &);
 public:
@@ -16,7 +17,7 @@ public:
     
     void exibirPerfil();
 	void exibirDados(Usuario) const;
-    void string getUsuario();
+    string getUsuario();
     
     
 private:

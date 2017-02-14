@@ -15,7 +15,7 @@ ostream &operator<<(ostream &output,const NetFlix &net){
     return output;
     }
     
-    NetFlix::operator =(const NetFlix &net){      
+    NetFlix::operator=(const NetFlix &net){      
         
         this->nome=net.nome;
         this->senha=net.senha;
