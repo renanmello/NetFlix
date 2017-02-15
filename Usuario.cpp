@@ -24,6 +24,14 @@ Usuario::Usuario(const string &email,const string &perfil){
     this->perfil=perfil;
     
     }
+    
+    Usuario::operator=(const Usuario &user){      
+        
+        this->email=user.email;
+        this->perfil=user.perfil;
+        
+    }
+    
 Usuario::Usuario(const Usuario &u){
     email=u.email;
     perfil=u.perfil;  

@@ -15,6 +15,7 @@ public:
     Usuario(const string &, const string &);
     Usuario(const Usuario &);
     
+    Usuario &operator=(const Usuario &);
     void exibirPerfil();
 	void exibirDados(Usuario) const;
     string getUsuario();

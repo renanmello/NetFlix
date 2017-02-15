@@ -1,7 +1,7 @@
 #ifndef DATA_H
 #define DATA_H
 
-class Data
+class Data : public NetFlix
 {
 public:
     Data();
