@@ -22,10 +22,13 @@ public:
     void classificaFilme();
 	void exibirDados() const;
     void alocarUsuario(const int);
-private:
-	string senha;
+protected:
+
+    string senha;
 	string nome;
     static string regiao;
+private:
+	
     int quatPessoas;
     string *listaDePessoas;
     
