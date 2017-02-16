@@ -66,7 +66,7 @@ void NetFlix::cadastrarFilme(){
         cout<<"digite o nome do filme";
         cin>>nomeFilme;
         cout<<"digite o tipo";
-        cin<<tipoFilme;
+        cin>>tipoFilme;
         listaDeFilmes[i]=nomeFilme+"-"+tipoFilme;
         
         }

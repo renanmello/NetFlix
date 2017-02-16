@@ -6,7 +6,7 @@ using namespace std;
 
 using std::string;
 
-class NetFlix
+class NetFlix : public Streaming
 {
     
      friend ostream &operator<<(ostream &,const NetFlix &);
