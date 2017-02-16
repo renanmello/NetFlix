@@ -40,11 +40,11 @@ Usuario::Usuario(const Usuario &u){
     }
     
         
-        Usuario::getUsuario(){
+      string  Usuario::getUsuario(){
             return Usuario;
             }
             
-Usuario::exibirDados(Usuario n){
+Usuario::exibirDados(Usuario n) const{
     
     
     cout<<n.getUsuario();

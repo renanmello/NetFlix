@@ -2,6 +2,7 @@
 #include <string>
 #include "Usuario.h"
 using std::cout;
+using std::string;
 int main (int argc, char *argv[])
 {
  
