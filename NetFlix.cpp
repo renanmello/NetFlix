@@ -32,7 +32,7 @@ ostream &operator<<(ostream &output,const NetFlix &net){
 NetFlix::NetFlix()
 {
     
-    senha="1234";
+    this->senha="1234";
 }
 
 NetFlix::~NetFlix()
@@ -72,7 +72,7 @@ void NetFlix::cadastrarFilme(){
         }
     
     }
-void NetFlix::exibirDados() const
+ virtual void NetFlix::exibirDados() const
 {
     cout<<nomeFilme;
     cout<<senha;

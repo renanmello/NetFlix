@@ -1,8 +1,11 @@
 #ifndef SITE_H
 #define SITE_H
-
+#include <iostream>
+#include <string>
 class Site
 {
+    friend ostream &operator<<(ostream &,const Site &);
+    
 public:
     Site();
     ~Site();

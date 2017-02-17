@@ -3,6 +3,8 @@
 
 class Streaming : public Site
 {
+    friend ostream &operator<<(ostream &,const Streaming &);
+    
 public:
     Streaming();
     ~Streaming();
