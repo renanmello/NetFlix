@@ -12,6 +12,20 @@ Streaming::Streaming(const string &id, const int &nome){
     
     }
     
+    const Streaming &operator=(const Streaming &str){
+        this->id=str.id;
+        this->nome=str.nome;
+        
+        }
+        
+        bool Streaming::operator==(const Streaming &str){
+             if(str.id==0){
+                 return false;
+                 }else{
+                     return true;
+                     }
+             }
+        
     Streaming::Streaming(const Streaming &str){
         id=str.id;
         nome=str.nome;
@@ -25,3 +39,19 @@ Streaming::~Streaming()
 {
 }
 
+
+void Streaming::Streaming(const int nstream){
+     alocarStream(nstream);
+    }
+    
+void Streaming::alocarStream(const int nstream){
+    
+    if(nstream>0){
+        servicosStream=new string[nstream];
+        quatStream=nstream;
+        cout<<"números de streams para cadastro";
+        }else{
+            cout<<"sem stream";
+            }
+    
+    }
