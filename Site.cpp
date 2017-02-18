@@ -34,6 +34,7 @@ Site::Site()
              }
 Site::~Site()
 {
+    delete [] listaSites;
 }
 
 void Site::Site(const int nsites){

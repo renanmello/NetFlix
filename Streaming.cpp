@@ -37,6 +37,7 @@ ostream &operator<<(ostream &output, const Streaming &str){
      }
 Streaming::~Streaming()
 {
+    delete [] servicosStream;
 }
 
 
