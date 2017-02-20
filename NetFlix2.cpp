@@ -116,6 +116,28 @@ const NetFlix2 &operator=(const NetFlix2 &net){
                  
                  }
              
-             
+      void NetFlix::exibirDados(){
+          int resp;
+          cout<<"qual dados deseja ?";
+          cout<<"opção 1-filmes";
+          cout<<"opcao 2-usuarios";
+          cin>>resp;
+          
+          if(res==1){
+              for(int i=0,i<listaDeFilmes.lenght,i++){
+                  
+                  cout<<listaDeFilmes[i];
+                  }
+                  
+                  if(res==2){
+                      for(int i=0,i<listaDePessoas.lenght,i++){
+                  
+                  cout<<listaDePessoas[i];
+                  }
+                      }
+              
+              }
+          
+          }        
      
      
