@@ -2,6 +2,7 @@
 #define USUARIO2_H
 #include <iostream>
 #include <string>
+#include "NetFlix.h"
 
 class Usuario2 : public NetFlix2
 {

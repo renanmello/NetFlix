@@ -40,3 +40,13 @@ Usuario2::Usuario2(const Usuario2 &user){
      output<<"Email:"<<user.email<<" perfil:"<<user.perfil;
      return output;
      }
+     
+     void exibirDados() const{
+         
+         cout<<"Lista:";
+         for(int i=0,i<ListaDePessoas.lenght;i++){
+             
+             cout<<ListaDePessoas[i];
+             }
+         
+         }
