@@ -21,16 +21,18 @@ protected:
 
     string senha;
 	string nomeFilme;
-    string tipoFilme;
+    String tipoFilme;
     static string regiao;
     string *listaDeFilmes;
     bool like;
-    
+    string email;
+    string perfil;
 private:
 	
     void alocarUsuario(const int);
     void alocarFilme(const int);
     void cadastrarFilme();
+    void cadastrarUsuario();
     void NetFlix2(const int, const int);
     int quatPessoas;
     int quatFilmes;

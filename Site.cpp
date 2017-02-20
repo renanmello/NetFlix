@@ -1,6 +1,7 @@
 #include "Site.h"
 #include <iostream>
 #include <string>
+using std::string;
 Site::Site()
 {
     this->endereco="default";

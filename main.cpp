@@ -1,12 +1,12 @@
 #include <iostream>
 #include <string>
-#include "Usuario.h"
+#include "Usuario2.h"
 using std::cout;
 using std::string;
 int main (int argc, char *argv[])
 {
  
-    Usuario u=new Usuario();
+    Usuario2 u=new Usuario2();
     
     u.NetFlix("renan@teste","renan");
     u.exibirDados(u);

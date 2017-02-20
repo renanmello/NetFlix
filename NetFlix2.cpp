@@ -82,10 +82,40 @@ const NetFlix2 &operator=(const NetFlix2 &net){
                  cout<<"Digite o tipo do filme";
                  cin>>tipoFilme;
                  
+                 listaDeFilmes[i]=nomeFilme+"-"+tipoFilme;
                  }
                  
                  cout<<"Fim dos cadastros";
              
+          
              }
+             
+             void NetFlix2::cadastrarUsuario(){
+                 
+                
+                 for(int i=0,i<listaDePessoass.lenght,i++){
+                 
+                 cout<<"digite o nome do "<<i<<"Usuario";
+                 cin>>nome;
+                 
+                 
+                 cout<<"Digite a senha";
+                 cin>>senha;
+                 
+                 cout<<"digite o email";
+                 cin>>email;
+                 
+                 cout<<"digite o perfil";
+                 cin>>perfil;
+                 
+                 
+                 listaDePessoas[i]=nome+"-"+senha+"-"+email+"-"+perfil;
+                 
+                 
+                 }
+                 
+                 }
+             
+             
      
      

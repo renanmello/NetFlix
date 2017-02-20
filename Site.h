@@ -2,6 +2,7 @@
 #define SITE_H
 #include <iostream>
 #include <string>
+using std::string;
 class Site
 {
     friend ostream &operator<<(ostream &,const Site &);
