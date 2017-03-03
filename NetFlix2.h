@@ -29,7 +29,7 @@ protected:
     string perfil;
 private:
 	
-    void alocarUsuario(const int);
+    void alocarM(const int);
     void alocarFilme(const int);
     void cadastrarFilme();
     void cadastrarUsuario();

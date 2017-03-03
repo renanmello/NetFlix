@@ -15,7 +15,7 @@ public:
     void exibirDados() const;
     void pesquisarStr();
     void Streaming(const int);
-    void alocarStream(const int);
+    void alocarM(const int);
     string nome;
     int id;
     

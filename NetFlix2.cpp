@@ -54,7 +54,7 @@ const NetFlix2 &operator=(const NetFlix2 &net){
      alocarFilme(nFilmes);
      }
      
-    void NetFlix2::alocarUsuario(const int nUsers){
+    void NetFlix2::alocarM(const int nUsers){
          if(nUsers>0){
         listaDePessoas=new string[nUsers];
         quatPessoas=nUsers;

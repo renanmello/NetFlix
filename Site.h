@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 using std::string;
-class Site
+abstract class Site
 {
     friend ostream &operator<<(ostream &,const Site &);
     
@@ -15,9 +15,9 @@ public:
     const Site &operator=(const Site &);
     bool operator==(const Site &);
     virtual void exibirDados() const = 0;
-    void pesquisarS();
+    virtual void pesquisar() = 0;
     void Site(const int);
-    void alocarSites(const int);
+    virtual void alocarM(const int) = 0;
      string endereco;
 private:
  string tipo;

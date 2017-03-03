@@ -45,7 +45,7 @@ void Streaming::Streaming(const int nstream){
      alocarStream(nstream);
     }
     
-void Streaming::alocarStream(const int nstream){
+void Streaming::alocarM(const int nstream){
     
     if(nstream>0){
         servicosStream=new string[nstream];
