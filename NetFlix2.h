@@ -2,6 +2,7 @@
 #define NETFLIX2_H
 #include <iostream>
 #include <string>
+#include "Data.h"
 
 class NetFlix2 : public Streaming
 {
@@ -24,6 +25,7 @@ protected:
     String tipoFilme;
     static string regiao;
     string *listaDeFilmes;
+    
     bool like;
     string email;
     string perfil;

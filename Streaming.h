@@ -17,11 +17,12 @@ public:
     void Streaming(const int);
     void alocarM(const int);
     string nome;
-    int id;
+    int id const;
     
 private:
     string *servicosStream;
     int quatStream;
+    vector<string> streams; 
 };
 
 #endif // STREAMING_H
