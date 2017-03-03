@@ -6,7 +6,7 @@ using std::cout;
 using std::cin;
 
 string NetFlix2::regiao="Brasil";
-
+const int NetFlix2::valor="20";
 NetFlix2::NetFlix2()
 {
     senha="default";

@@ -17,7 +17,7 @@ public:
     bool operator==(const NetFlix2 &);
     virtual void classificarFilmes();
     void exibirDados() const;
-    
+    static const int valor;
 protected:
 
     string senha;

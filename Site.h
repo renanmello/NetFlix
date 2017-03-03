@@ -19,6 +19,7 @@ public:
     void Site(const int);
     virtual void alocarM(const int) = 0;
      string endereco;
+     
 private:
  string tipo;
  string *listaSites;

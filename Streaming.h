@@ -17,7 +17,7 @@ public:
     void Streaming(const int);
     void alocarM(const int);
     string nome;
-    int id const;
+    const int id;
     
 private:
     string *servicosStream;
