@@ -56,3 +56,11 @@ void Streaming::alocarStream(const int nstream){
             }
     
     }
+void exibirDados() const{
+    cout<<"Lista:";
+         for(int i=0,i<servicosStream.lenght;i++){
+             
+             cout<<servicosStream[i];
+             }
+    
+    }

@@ -15,7 +15,7 @@ public:
     const NetFlix2 &operator=(const NetFlix2 &);
     bool operator==(const NetFlix2 &);
     virtual void classificarFilmes();
-    virtual void exibirDados() const;
+    void exibirDados() const;
     
 protected:
 

@@ -14,7 +14,7 @@ public:
     Site(const Site &);
     const Site &operator=(const Site &);
     bool operator==(const Site &);
-    void dadosDoSite() const;
+    virtual void exibirDados() const = 0;
     void pesquisarS();
     void Site(const int);
     void alocarSites(const int);

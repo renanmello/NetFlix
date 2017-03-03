@@ -12,7 +12,7 @@ public:
     Streaming(const Streaming &);
     const Streaming &operator=(const Streaming &);
     bool operator==(const Streaming &);
-    void dadosDeStr() const;
+    void exibirDados() const;
     void pesquisarStr();
     void Streaming(const int);
     void alocarStream(const int);
